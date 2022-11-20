@@ -1,0 +1,16 @@
+{
+  "name": "metricapi",
+  "version": "1.0.0",
+  "description": "This API is to return the performance metrics of the server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suchira Sen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-prometheus-middleware": "^1.2.0"
+  }
+}
